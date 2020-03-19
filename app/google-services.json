@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "933245065134",
+    "firebase_url": "https://pawn01-b967a.firebaseio.com",
+    "project_id": "pawn01-b967a",
+    "storage_bucket": "pawn01-b967a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933245065134:android:30340c2655c7a0389cda3f",
+        "android_client_info": {
+          "package_name": "com.example.pawn01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933245065134-k8qtgbr3en8b6k9nm7qo94fe1jojlrrc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pawn01",
+            "certificate_hash": "586814b9af713c0083450b641dbd2d47039db26b"
+          }
+        },
+        {
+          "client_id": "933245065134-5ihd4vv3h6apjp6rrujag4to166u27md.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGS2y2tTA0Ha5ghfJ3RmQDnZ-eidAtn2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "933245065134-5ihd4vv3h6apjp6rrujag4to166u27md.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

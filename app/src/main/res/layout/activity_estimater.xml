@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context=".estimater"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="171dp"
+        android:text="Weight"
+        android:textColor="#2196F3"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="345dp"
+        android:text="Value"
+        android:textColor="#2196F3"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="400dp"
+        android:text="Loan Ammount"
+        android:textColor="#2196F3"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="221dp"
+        android:text="Today Rate"
+        android:textColor="#2196F3"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="15dp"
+        android:text="Select Jewelary"
+        android:textColor="#2196F3"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="15dp"
+        android:dropDownWidth="match_parent"
+        android:gravity="center"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="275dp"
+
+        android:layout_marginTop="15dp"
+        android:text="Quantity"
+        android:textColor="#2196F3"
+        android:textSize="16sp" />
+
+    <RadioGroup
+        android:id="@+id/radio"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="118dp">
+
+        <RadioButton
+            android:id="@+id/gold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gold"
+            android:textColor="#FF9800" />
+
+        <RadioButton
+            android:id="@+id/whiteGold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="White Gold"
+            android:textColor="#696666" />
+
+        <RadioButton
+            android:id="@+id/silver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Silver"
+            android:textColor="#888282" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="95dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="167dp"
+        android:layout_toEndOf="@+id/textView5"
+        android:ems="10"
+        android:hint="gram"
+        android:inputType="numberSigned|number"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/rate"
+        android:layout_width="95dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="219dp"
+        android:layout_toEndOf="@+id/textView5"
+        android:ems="10"
+        android:hint="Rate"
+        android:inputType="numberSigned|number"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/whiteGold_purity"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Gold_purity"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="68dp"
+        android:ems="10"
+        android:hint="Purity"
+        android:inputType="number"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/Gold_purity"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="68dp"
+        android:ems="10"
+        android:hint="Purity"
+        android:inputType="number"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/silver_purity"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Gold_purity"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="68dp"
+        android:ems="10"
+        android:hint="Purity"
+        android:inputType="number"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/quantity"
+        android:layout_width="32dp"
+        android:layout_height="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="2dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        android:text="1"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/calculater"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="275dp"
+        android:layout_marginEnd="87dp"
+        android:background="#1976D2"
+        android:text="Calculate"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/transaction"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="449dp"
+        android:layout_marginEnd="87dp"
+        android:background="#4CAF50"
+        android:padding="5dp"
+        android:text="Transaction"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/value"
+        android:layout_width="148dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="335dp"
+        android:layout_marginEnd="87dp"
+        android:gravity="center|right"
+        android:text="0.0 Rs"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/loan_ammount"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="385dp"
+        android:layout_marginEnd="85dp"
+        android:ems="10"
+        android:gravity="center|right"
+        android:inputType="numberSigned"
+        android:text="0.0 Rs"
+        android:textSize="20sp" />
+
+</RelativeLayout>
